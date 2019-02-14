@@ -1,0 +1,42 @@
+.card_img{
+    border-radius: 25%;
+    width: 128px;
+    height: 128px;    
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+
+.open_card{
+    color: white;
+    text-align: center;
+    font-size: 64px;
+    display: none;
+  position: fixed;
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 50vw;
+  overflow: hidden;
+  margin: 200vh 25vw;
+}
+
+.card_details{
+    background-color: transparent;
+}
+
+.close{
+    background-color: transparent;
+    border-radius: 100%;    
+    float: right;
+    color: white;
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus{
+    background-color: transparent;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
